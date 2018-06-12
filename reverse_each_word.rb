@@ -1,2 +1,3 @@
-def reverse_each_word("Hello there, and how are you?")
-  reverse_each_word.each
+def reverse_each_word(string)
+   words = string.split(" ")
+   new_sentence = []
